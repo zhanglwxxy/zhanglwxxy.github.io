@@ -1,8 +1,12 @@
 body {background-color: #aed1e8}
-p {color: white}
-h1 {color: white}
-h3 {color: white}
-h4 {color: white}
-#statement {position: absolute;
-            left: 35%;
-	        top: 92%;}
+.text {color: white;
+       font: 20px 楷体;
+       text-indent:30px;}
+h1 {color: white;
+    font-size:30px;}
+h3 {color: white;
+    font-size:25px;}
+h4 {color: white;
+    font-size:20px;}
+#foot {padding: 60px;
+       text-align: center;}
