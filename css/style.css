@@ -25,14 +25,14 @@ div.foot {width: 60%;
         left:20%;
         top:100%;}
 
-div.rightcontrol {border-radius: 0px 15px 15px 0px;
+div.rightcontrol {border-radius: 0px 0px 0px 0px;
                   position: relative;
                   left: -9px;
                   top: -80px;
                   background-color: rgba(101, 138, 194, 0.5);
                   border: 2px solid #ad5a5a;
-                  width: 16%;
-                  height: 600px;}
+                  width: 200px;
+                  height: 400px;}
 
 
 
