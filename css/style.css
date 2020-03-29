@@ -25,11 +25,12 @@ div.table {border-radius: 25px;
         box-shadow: 10px 10px 5px #888888;}
 div.text {
     position:relative;
-    left:0px;
-    top:0px;}
+    right:0px;
+    min-with:200px;
+ }
 div.photo {
     position:relative;
-    right:0px;
+    left:200px;
     top:0px;
 }
 div.under {height: 20px;}
