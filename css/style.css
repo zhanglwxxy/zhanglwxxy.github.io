@@ -22,16 +22,11 @@ div.table {border-radius: 25px;
         background-color: rgba(226, 237, 202, 0.8);
         width: 90%;
         margin: auto;
-        box-shadow: 10px 10px 5px #888888;}
-div.text {
-    position:relative;
-    right:0px;
-    min-with:200px;
- }
-div.photo {
-    position:relative;
-    left:200px;
-    top:0px;
+        box-shadow: 10px 10px 5px #888888;
+        position:static;
+        }
+img {
+    float: right;
 }
 div.under {height: 20px;}
 div.foot {width: 60%;
