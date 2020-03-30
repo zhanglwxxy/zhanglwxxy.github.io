@@ -15,8 +15,9 @@ div.centertext {border-radius: 30px;
                 width: 60%;
                 margin: auto;
                 position:absolute;
-                left:300px;
+                left:250px;
 	            top:20px;
+	            min-width: 700px;
 	            }
 div.table {border-radius: 25px;
         background-color: rgba(226, 237, 202, 0.8);
@@ -25,12 +26,17 @@ div.table {border-radius: 25px;
         box-shadow: 10px 10px 5px #888888;
         position:static;
         }
-img {
+img.rightphoto {
     float: right;
+}
+img.leftphoto {
+    float: left;
+    position:relative;
+    bottom:inherit;
 }
 div.under {height: 20px;}
 div.foot {width: 60%;
-        position:absolute;
+        position:re;
         left:20%;
         top:100%;}
 
