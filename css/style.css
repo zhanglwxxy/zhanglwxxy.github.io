@@ -1,6 +1,6 @@
 body {
     background: #aed1e8;
-    min-width:1000px;
+    min-width:800px;
     height:101%;
     }
 p.titletext {color: white;
@@ -15,7 +15,7 @@ div.centertext {border-radius: 30px;
                 width: 60%;
                 margin: auto;
                 position:absolute;
-                left:250px;
+                left:200px;
 	            top:20px;
 	            min-width: 700px;
 	            }
@@ -41,13 +41,58 @@ div.foot {padding: 30px;
 
 div.rightcontrol {border-radius: 0px 0px 0px 0px;
                   position: absolute;
-                  left: 0px;
+                  right: 0px;
                   top: 0px;
                   background-color: rgba(101, 138, 194, 0.5);
                   border: 2px solid #ad5a5a;
                   width: 200px;
-                  height: 420px;
+                  height: 400px;
                   text-align: center;}
-
+div.heartcontrol {border-radius: 15px 15px 40px 40px;
+                  position: absolute;
+                  left: 0px;
+                  top: 0px;
+                  border: 2px solid #ad5a5a;
+                  text-align: center;}
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #eb5234;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
 
 
