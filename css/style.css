@@ -35,10 +35,9 @@ img.leftphoto {
     bottom:inherit;
 }
 div.under {height: 20px;}
-div.foot {width: 60%;
-        position:re;
-        left:20%;
-        top:100%;}
+
+div.foot {padding: 30px;
+    text-align: center;}
 
 div.rightcontrol {border-radius: 0px 0px 0px 0px;
                   position: absolute;
