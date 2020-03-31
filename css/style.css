@@ -3,29 +3,42 @@ body {
     width:800px;
     height:101%;
     }
-p.titletext {color: white;
-            font: 35px 黑体;
-            text-shadow: 5px 5px 5px #FF0000;}
-p.text {color: #4c5052;
-       font: 20px 楷体;}
+p.titletext {
+    color: white;
+    font: 35px 黑体;
+    text-shadow: 5px 5px 5px #FF0000;
+}
+p.text {
+    color: #4c5052;
+    font: 20px 楷体;
+}
+p.directyear {
+    color: rgb(0, 0, 0);
+    font: 25px 黑体;
+}
+p.directmonth {
+    color: rgb(0, 0, 0);
+    font: 15px 宋体;
+}
 
-
-div.centertext {border-radius: 30px;
-                background-color: rgba(0,0,0,0.2);
-                width: 60%;
-                margin: auto;
-                position:absolute;
-                left:170px;
-	            top:20px;
-	            min-width: 700px;
-	            }
-div.table {border-radius: 25px;
-        background-color: rgba(226, 237, 202, 0.8);
-        width: 90%;
-        margin: auto;
-        box-shadow: 10px 10px 5px #888888;
-        position:static;
-        }
+div.centertext {
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.2);
+    width: 60%;
+    margin: auto;
+    position:absolute;
+    left:170px;
+    top:20px;
+    min-width: 700px;
+}
+div.table {
+    border-radius: 25px;
+    background-color: rgba(226, 237, 202, 0.8);
+    width: 90%;
+    margin: auto;
+    box-shadow: 10px 10px 5px #888888;
+    position:static;
+}
 img.rightphoto {
     float: right;
 }
@@ -36,24 +49,46 @@ img.leftphoto {
 }
 div.under {height: 20px;}
 
-div.foot {padding: 30px;
-    text-align: center;}
+div.foot {
+    padding: 30px;
+    text-align: center;
+}
 
-div.rightcontrol {border-radius: 0px 0px 0px 0px;
-                  position: absolute;
-                  right: -250px;
-                  top: 0px;
-                  background-color: rgba(101, 138, 194, 0.5);
-                  border: 2px solid #ad5a5a;
-                  width: 200px;
-                  height: 400px;
-                  text-align: center;}
-div.heartcontrol {border-radius: 15px 15px 40px 40px;
-                  position: absolute;
-                  left: 10px;
-                  top: 20px;
-                  border: 2px solid #b43f3f;
-                  text-align: center;}
+div.rightcontrol {
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    right: -250px;
+    top: 0px;
+    background-color: rgba(101, 138, 194, 0.5);
+    border: 2px solid #ad5a5a;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+div.heartcontrol {
+    border-radius: 15px 15px 40px 40px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    border: 1px solid #b43f3f;
+    text-align: center;
+}
+
+div.direct {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0px 25px 25px 0px;
+    position: absolute;
+    left: 0px;
+    top: 160px;
+    width: 150px;
+}
+div.directtext {
+    border-radius: 15px 15px 0px 0px;
+    border-top: 2px solid #fcb6b6;
+    margin: auto;    
+    text-align: center;
+}
+
 #heart {
     position: relative;
     width: 100px;
