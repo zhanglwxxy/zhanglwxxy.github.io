@@ -163,9 +163,16 @@ div.phototable{
     background-color: rgba(99, 22, 67, 0.2);
     border-radius: 0px 0px 0px 0px;
     border: 1px solid #d1c413;
-    position: fixed;
-    top: 240px;
-    right: 30px;
-    height:500px;
-    width: 250px;
+    position: absolute;
+    top: 140px;
+    right: -350px;
+    width: 300px;
+}
+div.ourphoto{
+    float: left;
+    cursor: pointer;
+    transition: all 1s;
+}
+div.ourphoto:hover {
+    transform: scale(3);
 }
