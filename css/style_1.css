@@ -10,7 +10,7 @@ p.titletext {
 }
 p.text {
     color: #4c5052;
-    font: 20px 楷体;
+    font: 18px Arial;
 }
 p.directyear {
     color: rgb(0, 0, 0);
@@ -175,4 +175,14 @@ div.ourphoto{
 }
 div.ourphoto:hover {
     transform: scale(3);
+}
+
+div.sprit {
+    position: absolute;
+    bottom: -350px;
+    width: inherit;
+}
+#sprittext {
+    color: #40456b;
+    font: 15px Helvetica;
 }
