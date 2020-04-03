@@ -45,7 +45,7 @@ div.centertext {
     width: 60%;
     margin: auto;
     position:absolute;
-    left:170px;
+    left:220px;
     top:150px;
     min-width: 700px;
 }
@@ -164,7 +164,7 @@ div.phototable{
     border-radius: 0px 0px 0px 0px;
     border: 1px solid #d1c413;
     position: absolute;
-    top: 140px;
+    top: -120px;
     right: -350px;
     width: 300px;
 }
@@ -182,7 +182,7 @@ div.sprit {
     bottom: -350px;
     width: inherit;
 }
-#sprittext {
+p.sprittext {
     color: #40456b;
-    font: 15px Helvetica;
+    font: 16px Helvetica;
 }
