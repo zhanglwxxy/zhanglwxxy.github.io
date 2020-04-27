@@ -1,10 +1,9 @@
 body {
-    background: #aed1e8;
-    width:800px;
-    height:101%;
+	background: -webkit-linear-gradient(left,rgb(235, 192, 192, 0.8),rgb(255, 250, 232, 0.8));
+	background: -webkit-linear-gradient(left,rgb(235, 192, 192, 0.8),rgb(255, 250, 232, 0.8));
     }
 p.titletext {
-    color: white;
+    color: white;	
     font: 35px 黑体;
     text-shadow: 5px 5px 5px #FF0000;
 }
